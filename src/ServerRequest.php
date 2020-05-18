@@ -10,8 +10,7 @@ use Psr\Http\Message\UriInterface;
 
 /**
  * Class ServerRequest
- * @package Mix\Http\Message
- * @author liu,jian <coder.keda@gmail.com>
+ * @package Soen\Http\Message
  */
 class ServerRequest extends Request implements ServerRequestInterface
 {
@@ -98,11 +97,11 @@ class ServerRequest extends Request implements ServerRequestInterface
      * @param \Swoole\Http\Request $request
      * @return $this
      */
-    public function withSwooleRequest(\Swoole\Http\Request $request)
-    {
-        $this->swooleRequest = $request;
-        return $this;
-    }
+//    public function withSwooleRequest(\Swoole\Http\Request $request)
+//    {
+//        $this->swooleRequest = $request;
+//        return $this;
+//    }
 
     /**
      * Retrieve server parameters.
