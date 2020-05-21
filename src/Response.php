@@ -7,8 +7,7 @@ use Psr\Http\Message\ResponseInterface;
 
 /**
  * Class Response
- * @package Mix\Http\Message
- * @author liu,jian <coder.keda@gmail.com>
+ * @package Soen\Http\Message
  */
 class Response extends Message implements ResponseInterface
 {

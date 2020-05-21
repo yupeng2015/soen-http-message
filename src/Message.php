@@ -7,8 +7,7 @@ use Psr\Http\Message\StreamInterface;
 
 /**
  * Class Message
- * @package Mix\Http\Message
- * @author liu,jian <coder.keda@gmail.com>
+ * @package Soen\Http\Message
  */
 class Message implements MessageInterface
 {

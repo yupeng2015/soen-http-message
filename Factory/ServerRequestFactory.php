@@ -12,7 +12,7 @@ use Psr\Http\Message\ServerRequestInterface;
 
 /**
  * Class ServerRequestFactory
- * @package Mix\Http\Message\Factory
+ * @package Soen\Http\Message\Factory
  */
 class ServerRequestFactory implements ServerRequestFactoryInterface
 {

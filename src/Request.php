@@ -8,8 +8,7 @@ use Psr\Http\Message\UriInterface;
 
 /**
  * Class Request
- * @package Mix\Http\Message
- * @author liu,jian <coder.keda@gmail.com>
+ * @package Soen\Http\Message
  */
 class Request extends Message implements RequestInterface
 {
