@@ -7,10 +7,10 @@ use Psr\Http\Message\ResponseFactoryInterface;
 use Psr\Http\Message\ResponseInterface;
 
 /**
- * Class ServerResponseFactory
+ * Class ResponseFactory
  * @package Soen\Http\Message\Factory
  */
-class ServerResponseFactory implements ResponseFactoryInterface
+class ResponseFactory implements ResponseFactoryInterface
 {
 
     /**

@@ -2,7 +2,7 @@
 
 namespace Soen\Http\Message;
 
-//use Mix\Http\Message\Cookie\Cookie;
+//use Soen\Http\Message\Cookie\Cookie;
 use Psr\Http\Message\ResponseInterface;
 
 /**

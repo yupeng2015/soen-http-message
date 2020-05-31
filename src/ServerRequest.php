@@ -97,11 +97,11 @@ class ServerRequest extends Request implements ServerRequestInterface
      * @param \Swoole\Http\Request $request
      * @return $this
      */
-//    public function withSwooleRequest(\Swoole\Http\Request $request)
-//    {
-//        $this->swooleRequest = $request;
-//        return $this;
-//    }
+    public function withSwooleRequest(\Swoole\Http\Request $request)
+    {
+        $this->swooleRequest = $request;
+        return $this;
+    }
 
     /**
      * Retrieve server parameters.
